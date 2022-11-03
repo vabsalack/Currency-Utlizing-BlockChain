@@ -26,7 +26,7 @@ class BlockChain:
         self.chain = [addGenesisBlock()]
         self.pendingTransactions = []
         self.difficulty = 2
-        self.minerRewards = 10;
+        self.minerRewards = 10
         self.blockSize = 10
         self.nodes = set()
 
